@@ -1,7 +1,7 @@
 from random import shuffle
 
 # select number of players
-n = int(input("Select Number of Players(Example: 10)\n : "))
+n = int(input("Enter Number of Players(Example: 10)\n : "))
 
 players = list(range(1, n + 1))
 
