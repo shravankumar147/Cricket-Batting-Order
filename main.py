@@ -9,11 +9,10 @@ players = list(range(1, n + 1))
 
 shuffle(players)
 
+
 # print(players)
 
 while players:
-    text = input("Next Player")  # or raw_input in python2
-    if text == "":
+    text = input("Next Player: ")  # or raw_input in python2
+    if text == "" or text:
         print(f"your batting order: {players.pop(0)}")
-    else:
-        print("you typed some text before pressing enter")
